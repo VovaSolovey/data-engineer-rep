@@ -1,0 +1,4 @@
+success,terms,privacy,change,start_date,end_date,source,quotes
+True,https://currencylayer.com/terms,https://currencylayer.com/privacy,True,2007-09-01,2025-02-09,USD,"{'start_rate': 25.702288, 'end_rate': 97.479561, 'change': 71.7773, 'change_pct': 279.2641}"
+True,https://currencylayer.com/terms,https://currencylayer.com/privacy,True,2007-09-01,2025-02-09,USD,"{'start_rate': 0.495287, 'end_rate': 0.806289, 'change': 0.311, 'change_pct': 62.7923}"
+True,https://currencylayer.com/terms,https://currencylayer.com/privacy,True,2007-09-01,2025-02-09,USD,"{'start_rate': 0.731831, 'end_rate': 0.96785, 'change': 0.236, 'change_pct': 32.2505}"
