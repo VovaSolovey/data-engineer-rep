@@ -5,16 +5,6 @@ from utility.request_sender import RequestSender
 from utility.csv_writer import CsvWriter
 from utility.csv_reader import CsvReader
 
-def print_csv_table(file_name):
-    # Читаем и выводим данные из CSV
-    try:
-        with open(file_name, 'r', encoding='utf-8') as file:
-            reader = csv.reader(file)
-            for row in reader:
-                print(row)  # Просто выводим строку как список
-    except Exception as e:
-        print(f"Ошибка при чтении CSV файла: {e}")
-
 def main():
     # Чтение списка городов из YAML файла
     yaml_reader = YamlReader()
@@ -39,8 +29,9 @@ def main():
     csv_writer.write_to_csv("weather_forecast")
 
     # Печатаем данные из CSV файла
-    print("\nWeather data from CSV file:")
-    print_csv_table("weather_forecast.csv")
+    csv_reader = CsvReader('weather_forecast.csv')
+    print("\nЧтение данных из CSV файла:")
+    csv_reader.print_csv_table()  # Печать данных
 
 if __name__ == "__main__":
     main()

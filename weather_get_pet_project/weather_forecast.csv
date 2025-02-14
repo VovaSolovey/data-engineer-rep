@@ -1,7 +1,7 @@
 City,Temperature,Wind Speed,Conditions,Datetime
-Moscow,-6.66,2.65,Clouds,2025-02-13 19:34:37
-New York,4.36,2.68,Mist,2025-02-13 19:34:38
-London,3.95,2.57,Clouds,2025-02-13 19:34:40
-Tokyo,4.26,9.26,Clouds,2025-02-13 19:34:41
-Paris,5.39,3.09,Clouds,2025-02-13 19:34:43
-Kaliningrad,-0.57,2.43,Clouds,2025-02-13 19:34:44
+Moscow,-6.66,2.42,Clouds,2025-02-13 20:34:40
+New York,5.04,2.57,Mist,2025-02-13 20:34:41
+London,3.78,3.6,Clouds,2025-02-13 20:34:42
+Tokyo,4.35,7.2,Clouds,2025-02-13 20:34:44
+Paris,5.08,3.09,Clouds,2025-02-13 20:34:45
+Kaliningrad,-1.12,2.67,Clouds,2025-02-13 20:34:46
